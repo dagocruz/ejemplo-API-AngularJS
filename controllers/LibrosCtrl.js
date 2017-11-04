@@ -22,7 +22,7 @@ var libros = [
 exports.getLibros = function(req,res,next){
 	console.log('GET /libros');
 	//res.status(200).jsonp(libros);
-	Libro.find({autor: 'Charles Bukowsky'}, function(err,libros){
+	Libro.find(function(err,libros){
 		if(err){
 			res.send(500, err.message);
 		}
