@@ -1,4 +1,3 @@
-# Práctica 1: Introducción Rest API con NodeJS y ExpressJS
+# Práctica 3: Vistas con AngularJS
 
-Ejemplo básico de cómo implementar un **Rest-API** utilizando NodeJS y ExpressJS.
-
+Ejemplo para creación de vistas front-end utilizando AngularJS y conectarse a un API REST en ExpressJS y una base de datos en MongoDB 
